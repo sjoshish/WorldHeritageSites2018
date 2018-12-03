@@ -459,7 +459,8 @@ var legend = L.control({position: 'bottomright'});
 legend.onAdd = function (map) {
     var div = L.DomUtil.create('div', 'info legend'),
         categories = ["Natural", "Cultural", "Mixed"],
-        labels = ["https://dl.dropboxusercontent.com/s/ph142j0rc1r4fkl/green.png",               "https://dl.dropboxusercontent.com/s/dciub6u40trc7ov/redd.png",
+        labels = ["https://dl.dropboxusercontent.com/s/ph142j0rc1r4fkl/green.png",          
+		  "https://dl.dropboxusercontent.com/s/dciub6u40trc7ov/redd.png",
   "https://dl.dropboxusercontent.com/s/onwmvtybg2rfp6r/black.png"];
 
     // loop through our density intervals and generate a label with a colored square for each interval
