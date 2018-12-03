@@ -1,0 +1,48 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+html,
+body,
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+.legend {
+    padding: 6px 10px 6px 6px;
+    color: #000033;
+    background: #fff;
+    border-left:3px solid #0000cc;
+    border-right:3px solid #0000cc;
+    border-top:3px solid #0000cc;
+    border-bottom:3px solid #0000cc
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+#map {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.leaflet-bottom.leaflet-left {
+  width: 100%;
+}
+
+.leaflet-control-container .leaflet-timeline-controls {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
